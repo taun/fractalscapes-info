@@ -1,0 +1,35 @@
+baseURL = "http://fractalscapes.info/"
+languageCode = "en-us"
+title = "FractalScapes"
+theme = "hugo-creative-portfolio-theme"
+[params]
+    style = "red"
+    description = "FractalScapes is an Interactive Fractal Design Tool"
+    email = "help@fractalscapes.info"
+    copyright = "&copy;2014 Taun P. Chapman"
+  sidebarAbout = [
+    "FractalScapes is an interactive Lindenmayer system fractal design tool. Original fractal art creation for everyone.",
+    "iOS App only (for now)"
+  ]
+  
+ [[params.navlinks]]
+  name = "Home"
+  url = "fractals/"
+  home = true
+
+  [[params.navlinks]]
+  name = "About"
+  url = "about/"
+
+  [[params.navlinks]]
+  name = "Get in touch"
+  url = "contact/"
+
+  [params.social]
+  facebook      = "https://www.facebook.com/fractalscapes/?eid=ARCluOaz40_SLr987QP_xHVIkvsz8c2Y4ZB_qQYO_GeYcXa_yMm3crElwv-Jd9IRd3NbtxGOOIRs7j1W"
+  email         = "help@fractalscapes.info"
+  twitter       = "@FScapes"
+  linkedin      = "https://www.linkedin.com/in/taun-chapman-769534b/"
+  github        = "https://github.com/taun"
+
+
